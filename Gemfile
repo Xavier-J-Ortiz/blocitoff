@@ -17,7 +17,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'bootstrap'
+#gem 'bootstrap'
 gem 'figaro'
 
 group :development, :test do
@@ -31,3 +31,4 @@ group :development, :test do
 end
 
 gem 'devise'
+gem 'bootstrap-sass'
