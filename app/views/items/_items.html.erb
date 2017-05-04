@@ -1,0 +1,15 @@
+<% Item.all.each do |item|%>
+  <strong>------- </strong>
+  <p>
+  <strong>Name:</strong>
+  <%= item.name %>
+  </p>
+
+  <p>
+  <strong>User:</strong>
+  <%= item.user.email %>
+  </p>
+  <strong>------- </strong><br>
+<%end%>
+
+
