@@ -1,15 +1,7 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @item.name %>
-</p>
-
-<p>
-  <strong>User:</strong>
-  <%= @item.user.email %>
-</p>
-
+<p>All To-Do Items Listed below</p>
+<%= render 'items/items'%>
 
 <%= link_to 'Edit', edit_item_path(@item) %> |
 <%= link_to 'Back', items_path %>
