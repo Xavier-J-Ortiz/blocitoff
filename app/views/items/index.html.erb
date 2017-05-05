@@ -23,7 +23,7 @@
         </tr>
         <tr>
           <td><%= link_to 'Show', item %></td>
-          <td>created <%= distance_of_time_in_words(item.created_at, Time.now) %> ago</td>
+          <td><%= distance_of_time_in_words(item.created_at, item.created_at + 7.days)%> left to complete</td>
         </tr>
         <tr>
           <td>---</td>
