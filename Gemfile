@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.5'
+gem 'rails'
 
 group :production do
   gem 'pg'
@@ -32,3 +32,4 @@ end
 
 gem 'devise'
 gem 'bootstrap-sass'
+gem 'json'
